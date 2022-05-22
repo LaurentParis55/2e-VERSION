@@ -1,0 +1,81 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'Adamina', serif;
+  
+}
+
+header{
+margin: 0 auto;
+position: fixed;
+top:0;
+left: 0;
+height:10vmin;
+width:100%;
+background-color: teal;
+}
+
+p#contact_infos{
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: large;
+font-weight: 700;
+
+}
+
+main{
+  position:fixed;
+height:90vmin;
+width:100%;
+top:10vmin;
+overflow: scroll;
+
+}
+
+nav{
+position: fixed;
+width: 100%;
+
+}
+
+h1{
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 200vh;
+}
+
+#Home {background-color: white;   border: 3px solid red}
+#News {background-color:white;    border: 3px solid green}
+#Contact {background-color:white; border:3px solid blue}
+#About {background-color: white;  border:3px solid orange}

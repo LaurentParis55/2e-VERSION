@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ophtalmo.css">
+    <title>Lire L'ordo</title>
+</head>
+<body onload = dessineOrdo()>
+    <section>
+        <h1 id="mainTitle">LIRE MON ORDONNANCE :</h1>
+        <img src="" alt="" id="feuille">
+        <span class="correction" id="nomMédecin" title="LE NOM DU MÉDECIN"> <label  for="nomMéd" > <dfn> NOM DU MÉDECIN : </dfn></label> <input type="text" class="Mesure" id="nom" value="Dr NOMduDOCTEUR"/> </span> 
+        <span class="correction" id="MesureOD" title="sphére OD, cylindre OD, Axe OD"> <label  for="sphére" > <dfn> CORRECTION OD  : </dfn></label> <input type="text" class="Mesure" id="sph" value="-5,50 (+0.50; 180)"> </span> 
+        <span class="correction" id="AddOD" title="Addition OD notée Add ou Δ"> <label  for="ADD" > <dfn> ADDITION OD  : </dfn></label> <input type="text" class="Mesure" id="additionOD" value="Δ = 2,50"> </span> 
+        <span class="correction" id="MesureOG" title="sphére OG, cylindre OG, Axe OG"> <label  for="sphére" > <dfn> CORRECTION OG  : </dfn></label> <input type="text" class="Mesure" id="sph" value="-9,75 (+0.25; 95)"> </span> 
+        <span class="correction" id="AddOG" title="Addition OG notée Add ou Δ"> <label  for="ADD" > <dfn> ADDITION OG  : </dfn></label> <input type="text" class="Mesure" id="additionOG" value="Δ = 2,50"> </span> 
+        <span class="correction" id="RPPS" title=" NUMÉRO Á 13 CHIFFRES IDENTIFIANT LE MÉDECIN"> <label  for="RPPS" > <dfn> NUMÉRO RPPS : </dfn></label> <input type="text" class="Mesure" id="sph" value="123456789"> </span> 
+       
+    </section>
+    <script> 
+                
+                
+                function dessineOrdo(){
+
+
+                let loc = document.getElementById("feuille");
+                loc.setAttribute("src","https://img.freepik.com/photos-gratuite/mur-beton-blanc_53876-92803.jpg?t=st=1648670322~exp=1648670922~hmac=5e847595c50770a9bde903d779663551c38e3cf51863fc480acc9f275c774a1d&w=1380");
+                }
+    
+    
+    
+    </script>     
+</body>
+</html>

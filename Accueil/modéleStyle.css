@@ -1,0 +1,16 @@
+*{box-sizing: border-box;}
+body{width:100vmax; height: 100vmin; margin: 0; padding: 0; position: absolute; top: 0; left:0; font:62.5%; overflow: hidden;}
+header{width:100%; height:10%; position:absolute; top:0; left: 0; }
+footer{width:100%; height:2%; background: fuchsia; position: absolute; left:0; bottom: 0;}
+main{width:100%; height: 80%;}
+video{margin-top: 10%; margin-bottom: 10%; width:100%; height: 100%; object-fit: cover;}
+#mainTitle{margin-top: 0; text-align: center; font-size: 3rem; font-family:  'Noto Sans', sans-serif;}
+.sectionTitle{margin-top: 0; text-align: center; font-size: 3rem; font-family:  'Noto Sans', sans-serif;}
+.infos_site{text-align:center; font-weight: bolder; font-size: 1.7rem; font-variant:  small-caps; font-feature-settings: "c2sc", "smcp";}
+nav{display: flex; justify-content: space-around; align-items: center; margin-top: 0;}
+.rubrique{text-decoration: none; font-family:  'Noto Sans', sans-serif; font-size: 1.7rem; color:navy}
+.rubrique:hover{text-decoration: underline; font-family:  'Noto Sans', sans-serif; }
+.sp_contact{margin-left: 2%;}
+section{width:100vw; height: 100vh; border:5px solid brown; overflow: hidden;}
+
+/* cursor style */

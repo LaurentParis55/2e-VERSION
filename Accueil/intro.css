@@ -1,0 +1,56 @@
+/* Global CSS */
+
+html{font-size: 62.5%;}
+body{margin:0; padding: 0; background-color:rgba(90, 200, 255, .2); overflow: hidden; width:100vw; height:100vh; cursor:none}
+*{box-sizing: border-box; font-weight:1000;}
+
+/* Headers */
+h1, h2{text-align: center;  text-decoration: underline; font-family: 'Adamina', serif; }
+h1{font-size: 4.5rem; position:relative; margin:0 auto}
+h2{font-size: 2.5rem;}
+.col_Title{font-size: 3.9rem; background-color: white; width: 90%; margin: auto;}
+main{display: flex; justify-content: space-between; align-items: center;}
+section{width:92vw; height:99vh; background-color: white; margin:auto; text-align: center;
+     position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); font-size:25px; font-weight: 900; font-family: 'Adamina', serif; font-size: 2.5rem;}
+     section.ophtalmo{border:1px solid olivedrab}
+     section.opticien{border:1px solid teal;}
+     section.mutuelle{border:1px solid red}
+
+
+#h_Ophtalmo{background-color: olivedrab;}
+#h_Opticien{background-color: teal;}
+#h_Mutuelle{background-color: red;}
+
+.rubrique{text-decoration: none; cursor: grab; color:black}
+.rubrique_Ophtalmo:hover{text-decoration: underline; color:olivedrab; cursor: grabbing;}
+.rubrique_Opticien:hover{text-decoration: underline; color:teal; cursor: grabbing;}
+.rubrique_Mutuelle:hover{text-decoration: underline; color:red; cursor: grabbing;}
+
+
+p::first-letter { font-size: 175%; color: #8A2BE2; }
+.option::first-letter{font-size: 175%; color:black;}
+.simpleText{margin:0 auto}
+
+/* Navigation */
+button i{font-size: 50px;}
+button.next{width:200px; height: 50px; background-color:white; border-radius: 5px; margin: 5% 30%}
+button.next:hover{width:200px; height: 50px; background-color: bisque; border-radius: 5px;}
+button.prev{width:200px; height: 50px; background-color:white; border-radius: 5px; margin:25% 5%}
+button.prev:hover{width:200px; height: 50px; background-color: tomato; border-radius: 5px;}
+
+table { border: 1px solid black; margin:1vmin auto; width:99%; height: 99vmin; border-collapse: collapse; margin:auto; font-size: 2.5rem; cursor: grab;}
+td { border: 1px solid black; border-collapse: collapse; margin:auto; font-size: 2.5rem; height:13%}
+#cell_titles{height:17%; border: 1px solid black; border-collapse: collapse; margin:auto; font-size: 3.9rem;}
+#cell_titles th{  border: 1px solid black; border-collapse: collapse; margin:auto; font-size: 3.9rem; text-decoration:underline;}
+th{ height:17%; border: 1px solid black; border-collapse: collapse; margin:auto; font-size: 3.9rem; text-decoration:underline;}
+
+nav{display:flex; justify-content: space-around; align-items: center; margin-top: 1%;}
+nav a{color: black; text-decoration: none; font-size: 2.8rem;}
+nav a:hover{color:red; text-decoration: underline; font-size: 3rem;}
+#directions{display:flex; justify-content:space-evenly; align-items: center;}
+input[type=checkbox]{width: 20px; height: 20px; vertical-align: text-bottom;}
+.controls{display: flex; justify-content: space-around; align-items: center;}
+.cursor{width:40px; height: 40px; cursor: none; border:1px dashed red; border-radius: 50%; position: absolute;}
+.cursor::before{content:''; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); width: 5px; height: 5px; background: crimson; border-radius: 50%;}
+body
+/* TROUVER UNE STYLISATION DES INPUTS POUR LES RENDRE TRÉS VISIBLES ÉPAISSEUR ET GRAISSE OU COULEUR, et mettre en forme le parag */
